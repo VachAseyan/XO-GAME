@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+
+}
+
+body {
+    height: 690px;
+    background: rgb(34, 195, 66);
+    background: radial-gradient(circle, rgba(34, 195, 66, 1) 6%, rgba(110, 124, 109, 1) 100%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.button {
+    background: #ffffff;
+    height: 150px;
+    width: 150px;
+    border: none;
+    border-radius: 50px;
+    font-size: 80px;
+    color: #78cfbb;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+}
+
+.button:hover {
+    background-color: #aee7da;
+}
+
+#restart {
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 40px;
+    background-color: #7552dc;
+    color: #16360d;
+    border: none;
+    position: relative;
+    margin: 15px auto 0 auto;
+    display: block;
+}
+
+#restart:hover {
+    background-color: #673be9;
+}
+
+.popup {
+    background: rgb(34, 195, 66);
+    background: radial-gradient(circle, rgba(34, 195, 66, 1) 6%, rgba(110, 124, 109, 1) 100%);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 100px;
+}
+
+#new-game {
+    font-size: 50px;
+    padding: 10px 20px;
+    margin-top: 50px;
+    background-color: #7552dc;
+    color: #16360d;
+    border-radius: 20px;
+    border: none;
+}
+
+#new-game:hover {
+    background-color: #673be9;
+}
+
+#message {
+    color: #16360d;
+    text-align: center;
+    font-size: 100px;
+}
+
+.popup.hide {
+    display: none;
+}
